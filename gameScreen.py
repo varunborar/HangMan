@@ -8,10 +8,14 @@ class createLevel:
         self.visiblilty = [False for _ in range(self.length)]
         for i in range(self.visibleLetter):
             self.visiblilty[random.randint(0,self.length-1)] = True
+        for i in range(self.length):
+            if self.word[i] == " ":
+                self.visiblilty[i] = True
+
     
     def gameDetails(self, word):
         self.length = len(word)
-        self.visibleLetter = math.floor(self.length/3)
+        self.visibleLetter = math.floor(self.length/2)
         self.score = self.length*10
         self.word = word
         self.guessCount = math.ceil(self.length/2)
