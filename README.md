@@ -6,4 +6,6 @@ It has 3 level of difficulties <br>
 2. Medium : 5-12 letter words <br>
 3. Difficult : Compound words <br>
 with 250+ levels in all <br>
-It calculates score as you clear levels and keeps a record of words that you guessed right <br> </p>
+It calculates score as you clear levels and keeps a record of words that you guessed right <br>
+To change the word in the databse files run test.py and add words accordingly <br>
+Thankyou!</p>
